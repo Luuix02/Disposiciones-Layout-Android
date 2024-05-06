@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">organizacionDeVistas</string>
+    <string name="name">Organización de Vistas</string>
+    <string name="titulo">TextView (Título)</string>
+    <string name="btn1">Botón 1</string>
+    <string name="btn2">Botón 2</string>
+    <string name="txt">TextView2 (Créditos)</string>
+    <string name="nombres">Luisa Fernanda</string>
+    <string name="apellidos">Villacorte Imbachi</string>
+    <string name="correo">lufvi02@gmail.com</string>
+    <string name="uno">1.1</string>
+    <string name="dos">1.2</string>
+    <string name="tres">1.3</string>
+    <string name="cuatro">2.1</string>
+    <string name="cinco">2.2</string>
+    <string name="seis">2.3</string>
+    <string name="siete">3.1</string>
+    <string name="ocho">3.2</string>
+    <string name="red">RED</string>
+    <string name="orange">ORANGE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+    <string name="indigo">INDIGO</string>
+    <string name="violet">VIOLET</string>
+    <string name="next">Siguiente</string>
+</resources>

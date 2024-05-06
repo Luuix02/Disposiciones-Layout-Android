@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".RelativeActivity">
+
+    <TextView
+        android:id="@+id/primero"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text="@string/red"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/segundo"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/orange"
+        android:gravity="center"
+        android:text="@string/orange"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tercero"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:text="@string/yellow"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cuarto"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="@string/green"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/quinto"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/blue"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sexto"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/quinto"
+        android:background="@color/indigo"
+        android:gravity="center"
+        android:text="@string/indigo"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/septimo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/violet"
+        android:gravity="center"
+        android:text="@string/violet"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
